@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="contents/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="head">Rock Paper Scissors</div>
+            <button class="button" id="reset">reset scores</button>
+        </header>
+        <div class="scores">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+        <div class="result">
+            <p>Choose your hand</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="contents/Rock.png">
+            </div>
+
+            <div class="choice" id="p">
+                <img src="contents/Paper.png">
+            </div>
+
+            <div class="choice" id="s">
+                <img src="contents/Scissors.png">
+            </div>
+        </div>
+        
+        <p id="action-message">Choose your hand</p>
+        <script src="contents/js.js" charset="utf-8"></script>
+    </body>
+</html>
